@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BEFED4EB1AB2EAF8001B04B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEFED4EA1AB2EAF8001B04B5 /* main.m */; };
+		BEFED4EE1AB2EAF8001B04B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEFED4ED1AB2EAF8001B04B5 /* AppDelegate.m */; };
+		BEFED4F11AB2EAF8001B04B5 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEFED4F01AB2EAF8001B04B5 /* FirstViewController.m */; };
+		BEFED4F41AB2EAF8001B04B5 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEFED4F31AB2EAF8001B04B5 /* SecondViewController.m */; };
+		BEFED4F71AB2EAF8001B04B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEFED4F51AB2EAF8001B04B5 /* Main.storyboard */; };
+		BEFED4F91AB2EAF8001B04B5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEFED4F81AB2EAF8001B04B5 /* Images.xcassets */; };
+		BEFED4FC1AB2EAF8001B04B5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEFED4FA1AB2EAF8001B04B5 /* LaunchScreen.xib */; };
+		BEFED5081AB2EAF8001B04B5 /* BatiplusTabbedAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BEFED5071AB2EAF8001B04B5 /* BatiplusTabbedAppTests.m */; };
+		BEFED5131AB2EBDD001B04B5 /* CustomUITabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEFED5121AB2EBDD001B04B5 /* CustomUITabBarController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BEFED5021AB2EAF8001B04B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEFED4DD1AB2EAF8001B04B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEFED4E41AB2EAF8001B04B5;
+			remoteInfo = BatiplusTabbedApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BEFED4E51AB2EAF8001B04B5 /* BatiplusTabbedApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BatiplusTabbedApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEFED4E91AB2EAF8001B04B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEFED4EA1AB2EAF8001B04B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BEFED4EC1AB2EAF8001B04B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BEFED4ED1AB2EAF8001B04B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BEFED4EF1AB2EAF8001B04B5 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		BEFED4F01AB2EAF8001B04B5 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		BEFED4F21AB2EAF8001B04B5 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		BEFED4F31AB2EAF8001B04B5 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		BEFED4F61AB2EAF8001B04B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BEFED4F81AB2EAF8001B04B5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BEFED4FB1AB2EAF8001B04B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BEFED5011AB2EAF8001B04B5 /* BatiplusTabbedAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BatiplusTabbedAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEFED5061AB2EAF8001B04B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEFED5071AB2EAF8001B04B5 /* BatiplusTabbedAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BatiplusTabbedAppTests.m; sourceTree = "<group>"; };
+		BEFED5111AB2EBDD001B04B5 /* CustomUITabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomUITabBarController.h; sourceTree = "<group>"; };
+		BEFED5121AB2EBDD001B04B5 /* CustomUITabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomUITabBarController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEFED4E21AB2EAF8001B04B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEFED4FE1AB2EAF8001B04B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BEFED4DC1AB2EAF8001B04B5 = {
+			isa = PBXGroup;
+			children = (
+				BEFED4E71AB2EAF8001B04B5 /* BatiplusTabbedApp */,
+				BEFED5041AB2EAF8001B04B5 /* BatiplusTabbedAppTests */,
+				BEFED4E61AB2EAF8001B04B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEFED4E61AB2EAF8001B04B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEFED4E51AB2EAF8001B04B5 /* BatiplusTabbedApp.app */,
+				BEFED5011AB2EAF8001B04B5 /* BatiplusTabbedAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEFED4E71AB2EAF8001B04B5 /* BatiplusTabbedApp */ = {
+			isa = PBXGroup;
+			children = (
+				BEFED4EC1AB2EAF8001B04B5 /* AppDelegate.h */,
+				BEFED4ED1AB2EAF8001B04B5 /* AppDelegate.m */,
+				BEFED4EF1AB2EAF8001B04B5 /* FirstViewController.h */,
+				BEFED4F01AB2EAF8001B04B5 /* FirstViewController.m */,
+				BEFED4F21AB2EAF8001B04B5 /* SecondViewController.h */,
+				BEFED4F31AB2EAF8001B04B5 /* SecondViewController.m */,
+				BEFED4F51AB2EAF8001B04B5 /* Main.storyboard */,
+				BEFED4F81AB2EAF8001B04B5 /* Images.xcassets */,
+				BEFED4FA1AB2EAF8001B04B5 /* LaunchScreen.xib */,
+				BEFED4E81AB2EAF8001B04B5 /* Supporting Files */,
+				BEFED5111AB2EBDD001B04B5 /* CustomUITabBarController.h */,
+				BEFED5121AB2EBDD001B04B5 /* CustomUITabBarController.m */,
+			);
+			path = BatiplusTabbedApp;
+			sourceTree = "<group>";
+		};
+		BEFED4E81AB2EAF8001B04B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEFED4E91AB2EAF8001B04B5 /* Info.plist */,
+				BEFED4EA1AB2EAF8001B04B5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BEFED5041AB2EAF8001B04B5 /* BatiplusTabbedAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				BEFED5071AB2EAF8001B04B5 /* BatiplusTabbedAppTests.m */,
+				BEFED5051AB2EAF8001B04B5 /* Supporting Files */,
+			);
+			path = BatiplusTabbedAppTests;
+			sourceTree = "<group>";
+		};
+		BEFED5051AB2EAF8001B04B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEFED5061AB2EAF8001B04B5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEFED4E41AB2EAF8001B04B5 /* BatiplusTabbedApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEFED50B1AB2EAF8001B04B5 /* Build configuration list for PBXNativeTarget "BatiplusTabbedApp" */;
+			buildPhases = (
+				BEFED4E11AB2EAF8001B04B5 /* Sources */,
+				BEFED4E21AB2EAF8001B04B5 /* Frameworks */,
+				BEFED4E31AB2EAF8001B04B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BatiplusTabbedApp;
+			productName = BatiplusTabbedApp;
+			productReference = BEFED4E51AB2EAF8001B04B5 /* BatiplusTabbedApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BEFED5001AB2EAF8001B04B5 /* BatiplusTabbedAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEFED50E1AB2EAF8001B04B5 /* Build configuration list for PBXNativeTarget "BatiplusTabbedAppTests" */;
+			buildPhases = (
+				BEFED4FD1AB2EAF8001B04B5 /* Sources */,
+				BEFED4FE1AB2EAF8001B04B5 /* Frameworks */,
+				BEFED4FF1AB2EAF8001B04B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEFED5031AB2EAF8001B04B5 /* PBXTargetDependency */,
+			);
+			name = BatiplusTabbedAppTests;
+			productName = BatiplusTabbedAppTests;
+			productReference = BEFED5011AB2EAF8001B04B5 /* BatiplusTabbedAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEFED4DD1AB2EAF8001B04B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Leeroy Brun";
+				TargetAttributes = {
+					BEFED4E41AB2EAF8001B04B5 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					BEFED5001AB2EAF8001B04B5 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = BEFED4E41AB2EAF8001B04B5;
+					};
+				};
+			};
+			buildConfigurationList = BEFED4E01AB2EAF8001B04B5 /* Build configuration list for PBXProject "BatiplusTabbedApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEFED4DC1AB2EAF8001B04B5;
+			productRefGroup = BEFED4E61AB2EAF8001B04B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEFED4E41AB2EAF8001B04B5 /* BatiplusTabbedApp */,
+				BEFED5001AB2EAF8001B04B5 /* BatiplusTabbedAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEFED4E31AB2EAF8001B04B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEFED4F71AB2EAF8001B04B5 /* Main.storyboard in Resources */,
+				BEFED4FC1AB2EAF8001B04B5 /* LaunchScreen.xib in Resources */,
+				BEFED4F91AB2EAF8001B04B5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEFED4FF1AB2EAF8001B04B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEFED4E11AB2EAF8001B04B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEFED5131AB2EBDD001B04B5 /* CustomUITabBarController.m in Sources */,
+				BEFED4F41AB2EAF8001B04B5 /* SecondViewController.m in Sources */,
+				BEFED4EE1AB2EAF8001B04B5 /* AppDelegate.m in Sources */,
+				BEFED4F11AB2EAF8001B04B5 /* FirstViewController.m in Sources */,
+				BEFED4EB1AB2EAF8001B04B5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEFED4FD1AB2EAF8001B04B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEFED5081AB2EAF8001B04B5 /* BatiplusTabbedAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BEFED5031AB2EAF8001B04B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEFED4E41AB2EAF8001B04B5 /* BatiplusTabbedApp */;
+			targetProxy = BEFED5021AB2EAF8001B04B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BEFED4F51AB2EAF8001B04B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEFED4F61AB2EAF8001B04B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BEFED4FA1AB2EAF8001B04B5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEFED4FB1AB2EAF8001B04B5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEFED5091AB2EAF8001B04B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEFED50A1AB2EAF8001B04B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEFED50C1AB2EAF8001B04B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BatiplusTabbedApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BEFED50D1AB2EAF8001B04B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BatiplusTabbedApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BEFED50F1AB2EAF8001B04B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BatiplusTabbedAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BatiplusTabbedApp.app/BatiplusTabbedApp";
+			};
+			name = Debug;
+		};
+		BEFED5101AB2EAF8001B04B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BatiplusTabbedAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BatiplusTabbedApp.app/BatiplusTabbedApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEFED4E01AB2EAF8001B04B5 /* Build configuration list for PBXProject "BatiplusTabbedApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEFED5091AB2EAF8001B04B5 /* Debug */,
+				BEFED50A1AB2EAF8001B04B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEFED50B1AB2EAF8001B04B5 /* Build configuration list for PBXNativeTarget "BatiplusTabbedApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEFED50C1AB2EAF8001B04B5 /* Debug */,
+				BEFED50D1AB2EAF8001B04B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BEFED50E1AB2EAF8001B04B5 /* Build configuration list for PBXNativeTarget "BatiplusTabbedAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEFED50F1AB2EAF8001B04B5 /* Debug */,
+				BEFED5101AB2EAF8001B04B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEFED4DD1AB2EAF8001B04B5 /* Project object */;
+}
